@@ -1,0 +1,31 @@
+﻿< Data Type List >
+[Common]
+ + Head
+ + NormalData
+
+[Login Server]
+ + LoginRequest
+ + LoginACK
+
+[Game Server]
+// Data
+ + CheckUser
+ + PlayerData
+ + CustomPlayerData
+ + ItemData
+
+// Movement
+ + Move
+ + Look
+
+// Request
+ + ItemBuy
+
+// Result
+ + ResultGetEXP
+ + ResultLevelUp
+ + ResultAttack
+ 
+
+ ResultPlayersLocation
+ datas = ClientCount + (Clientnum + hori + verti) + ... // 카운트 수 만큼 전달.
